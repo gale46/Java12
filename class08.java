@@ -1,4 +1,6 @@
-package pack6.subpack1.subsubpack;
+// app12_6.java,���ɮ׸m��pack6��Ƨ���
+package pack6.subpack1.subsubpack;  // �Napp12_6���O�ǤJpackage pack6��
+
 class CStyle{
 	public int style;
 	public CStyle(int n) {
@@ -8,11 +10,16 @@ class CStyle{
 		//輸出style
 	}
 }
-public class CStyle {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		CStyle cs = new CStyle(1);//設置style為1
-	}
-
+public class app12_6
+{
+   public static void main(String args[])
+   {
+	  CStyle cs = new CStyle(1);//設置style為1
+	  /*
+      CCircle cir=new CCircle();
+      CRectangle rect=new CRectangle();
+      cir.show();
+      rect.show();
+      */
+   }
 }
