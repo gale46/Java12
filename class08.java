@@ -8,7 +8,7 @@ class CStyle{
 		//輸出style
 	}
 }
-public class Java12 {
+public class CStyle {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
