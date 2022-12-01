@@ -22,3 +22,26 @@ public class class09 {
     }
 
 }
+/* 
+package pack9.sub1;
+
+public class CSphere {
+    double V;
+
+    public CSphere(double r) {
+        V = 4 / 3 * Math.PI * Math.pow(r, 3);
+        System.out.println("體積為:" + V + '\n' + "半徑為:" + r);
+    }
+}
+package pack9.sub2;
+
+public class CTrapezoid {
+    double A;
+
+    public CTrapezoid(int u, int b, int h) {
+        A = (u + b) * h / 2;
+        System.out.println("上底為:" + u + "下底為:" + b + "高為:" + h + '\n' + "面積為:" + A);
+    }
+}
+
+*/
