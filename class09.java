@@ -9,13 +9,13 @@ import pack9.sub1.CSphere;
 public class class09 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("set radius:");
+        System.out.print("set radius:");//輸入半徑
         double r = sc.nextDouble();
-        System.out.print("set upper:");
-        String inp = sc.next();
-        String[] upper = inp.split(",");
+        System.out.print("set upper:");//輸入梯形數值
+        String inp = sc.next();//以字串輸入
+        String[] upper = inp.split(",");//使用逗號將字串個數值分開
         CSphere cs = new CSphere(r);
-        int u = Integer.parseInt(upper[0]);
+        int u = Integer.parseInt(upper[0]);//str to int
         int b = Integer.parseInt(upper[1]);
         int h = Integer.parseInt(upper[2]);
         CTrapezoid ct = new CTrapezoid(u, b, h);
@@ -24,7 +24,6 @@ public class class09 {
 }
 /* 
 package pack9.sub1;
-
 public class CSphere {
     double V;
 
